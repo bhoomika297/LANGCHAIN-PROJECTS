@@ -1,0 +1,129 @@
+Good Morning /Afternoon sir. First of all thankyou so much for giving me this opportunity to let me talk about my-self. My name is Bhoomika Agrahari and I am a final year student of MCA Specialization in Data Science and Artificial Intelligence from BBDU. 
+
+I am a determined and self motivated person.I tend to have a creative and solution oriented approach in my life.
+From the regular subjects of my MCA related curriculum I have always had a keen interest for Java and Python for machine learning and model deployement  and I have also learnt some technologies related to the same. 
+As I am now shifting from my academic year towards a professional one I am really looking forward to getting to know the latest technologies and working on the same so that they cater to the development of my interpersonal skills and lead to a positive growth on my career.
+Thank you so much.
+
+1. Why is Java a platform independent language?
+Java language was developed in such a way that it does not depend on any hardware or software due to the fact that the compiler compiles the code and then converts it to platform-independent byte code which can be run on multiple systems.
+
+The only condition to run that byte code is for the machine to have a runtime environment (JRE) installed in it
+
+2. Why is Java not a pure object oriented language?
+Java supports primitive data types - byte, boolean, char, short, int, float, long, and double and hence it is not a pure object oriented language.
+
+3. Difference between Heap and Stack Memory in java. And how java utilizes this.
+Stack memory is the portion of memory that was assigned to every individual program. And it was fixed. On the other hand, Heap memory is the portion that was not allocated to the java program but it will be available for use by the java program when it is required, mostly during the runtime of the program.
+
+4. Can java be said to be the complete object-oriented programming language?
+It is not wrong if we claim that java is the complete object-oriented programming language. Because Everything in Java is under the classes. And we can access that by creating the objects.
+
+But also if we say that java is not a completely object-oriented programming language because it has the support of primitive data types like int, float, char, boolean, double, etc.
+
+Now for the question: Is java a completely object-oriented programming language? We can say that - Java is not a pure object-oriented programming language, because it has direct access to primitive data types. And these primitive data types don't directly belong to the Integer classes.
+
+5. How is Java different from C++?
+C++ is only a  compiled language, whereas Java is compiled as well as an interpreted language.
+Java programs are machine-independent whereas a c++ program can run only in the machine in which it is compiled. 
+C++ allows users to use pointers in the program. Whereas java doesn’t allow it. Java internally uses pointers. 
+C++ supports the concept of Multiple inheritances whereas Java doesn't support this. And it is due to avoiding the complexity of name ambiguity that causes the diamond problem.
+
+6. Pointers are used in C/ C++. Why does Java not make use of pointers?
+Pointers are quite complicated and unsafe to use by beginner programmers. Java focuses on code simplicity, and the usage of pointers can make it challenging. Pointer utilization can also cause potential errors. Moreover, security is also compromised if pointers are used because the users can directly access memory with the help of pointers.
+
+Thus, a certain level of abstraction is furnished by not including pointers in Java. Moreover, the usage of pointers can make the procedure of garbage collection quite slow and erroneous. Java makes use of references as these cannot be manipulated, unlike pointers.
+
+7. What do you understand by an instance variable and a local variable?
+Instance variables are those variables that are accessible by all the methods in the class. They are declared outside the methods and inside the class. These variables describe the properties of an object and remain bound to it at any cost.
+
+All the objects of the class will have their copy of the variables for utilization. If any modification is done on these variables, then only that instance will be impacted by it, and all other class instances continue to remain unaffected.
+Example:
+
+class Athlete {
+public String athleteName;
+public double athleteSpeed;
+public int athleteAge;
+}
+Local variables are those variables present within a block, function, or constructor and can be accessed only inside them. The utilization of the variable is restricted to the block scope. Whenever a local variable is declared inside a method, the other class methods don’t have any knowledge about the local variable.
+
+Example:
+
+public void athlete() {
+String athleteName;
+double athleteSpeed;
+int athleteAge;
+}
+
+8. What are the default values assigned to variables and instances in java?
+There are no default values assigned to the variables in java. We need to initialize the value before using it. Otherwise, it will throw a compilation error of (Variable might not be initialized). 
+But for instance, if we create the object, then the default value will be initialized by the default constructor depending on the data type. 
+If it is a reference, then it will be assigned to null. 
+If it is numeric, then it will assign to 0.
+If it is a boolean, then it will be assigned to false. Etc.
+
+9. What do you mean by data encapsulation?
+Data Encapsulation is an Object-Oriented Programming concept of hiding the data attributes and their behaviours in a single unit.
+It helps developers to follow modularity while developing software by ensuring that each object is independent of other objects by having its own methods, attributes, and functionalities.
+It is used for the security of the private properties of an object and hence serves the purpose of data hiding.
+
+
+Aloha Technology is a global IT services outsourcing firm delivering digital transformation by developing technology to create revenue growth and improve agility by reinventing business functionality. Aloha Technology's domain expertise spans across several business verticals like Retail, Healthcare, Telecommunication, Business Intelligence, BFSI, Enterprise Collaboration, Supply Chain, Internet Advertising and CRM.
+
+Leading ISVs look at us as a strategic IT outsourcing and end-to-end product development choice. Aloha Technology has a global footprint which showcases a workforce of application developers, designers, computer scientists and engineers, and subject matter experts ready to serve the growing 21st century information and technology needs of clients.
+
+Can you describe the working culture of the company?
+What are some challenges I might face in this position?
+Do you have any concerns or questions about my qualifications?
+Is there anything we haven’t yet covered that you think is important to know about working here?
+My strength lies in my solid educational background, holding a master's degree in data science and artificial intelligence. I've applied this knowledge practically through many projecs during my academic years, demonstrating my hands-on skills in machine learning and model Deployement. Moreover, my effective communication and presentation skills were recognized during a recent public presentation at my college, where I received positive feedback from teachers. This combination of education, practical experience, and communication skills positions me well for roles in machine learning software development and data science.
+
+
+Certainly! Here are some machine learning project ideas considering the feasibility, viability, and direct monetization:
+
+1. **Personalized Health Assistant:**
+   - Develop a system that analyzes user health data (e.g., activity, sleep, heart rate) to provide personalized health recommendations.
+   - Monetization: Subscription model for premium health insights and recommendations.
+
+2. **Predictive Maintenance for Industrial Equipment:**
+   - Implement machine learning models to predict when industrial machinery or equipment is likely to fail.
+   - Monetization: Provide a subscription-based service to industries for predictive maintenance solutions.
+
+3. **AI-Powered Content Recommendation System:**
+   - Create a content recommendation system using machine learning to suggest personalized movies, books, or articles to users.
+   - Monetization: Partner with content providers and earn a commission on subscriptions or purchases through recommendations.
+
+4. **Fraud Detection for Financial Transactions:**
+   - Build a fraud detection system for financial transactions using anomaly detection and machine learning algorithms.
+   - Monetization: Charge financial institutions based on the volume of transactions processed.
+
+5. **AI-Powered Job Matching Platform:**
+   - Develop a platform that uses AI to match job seekers with suitable job opportunities based on their skills and preferences.
+   - Monetization: Charge employers for premium access to candidate profiles and advanced matching algorithms.
+
+6. **Smart Energy Consumption Monitoring:**
+   - Create a system that monitors and optimizes energy consumption in households or businesses using machine learning.
+   - Monetization: Offer a subscription service for energy optimization recommendations.
+
+7. **E-commerce Sales Prediction:**
+   - Build a machine learning model to predict future sales for e-commerce businesses, helping them optimize inventory and marketing strategies.
+   - Monetization: Charge e-commerce businesses for access to the sales prediction service.
+
+8. **AI-Powered Customer Support Chatbot:**
+   - Develop an advanced chatbot using natural language processing to handle customer support queries for businesses.
+   - Monetization: Charge businesses based on the volume of customer interactions handled by the chatbot.
+
+9. **Language Translation Service:**
+   - Create an AI-powered language translation service that offers accurate and context-aware translations.
+   - Monetization: Charge users based on the number of translated words or offer subscription plans for frequent users.
+
+10. **Real-time Stock Market Prediction:**
+    - Build machine learning models to predict stock market movements in real-time, assisting traders and investors.
+    - Monetization: Offer premium access to advanced prediction models and analytics.
+
+Remember to thoroughly research and validate the market demand for your chosen project before investing significant time and resources.
+
+
+
+
+AIzaSyC1wVixp51Iha1T0UhUiYnsuJYGi7tfNMk
